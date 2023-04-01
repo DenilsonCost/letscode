@@ -22,37 +22,37 @@
 }
 
 #header {
-    background-color: #8c7c62;
+    background-color: #84af97;
     grid-area: header;
     border-radius: 1em 1em 0em 0em;
 }
 
 #menu {
-    background-color: #71443f;
+    background-color: #ccee8d;
     grid-area: menu;
     border-radius: 0em 1em 1em 0em;
 }
 
 #main {
-    background-color: #b5cea4;
+    background-color: #9d9f89;
     grid-area: main;
     border-radius: 1em 0em 0em 1em;
 }
 
 #post1 {
-    background-color: #d3d5b0;
+    background-color: #8bc59b;
     grid-area: post1;
     border-radius: 1em;
 }
 
 #post2 {
-    background-color: #d3d5b0;
+    background-color: #8bc59b;
     grid-area: post2;
     border-radius: 1em 0em 0em 1em;
 }
 
 #footer {
-    background-color: #b5cea4;
+    background-color: #b2de93;
     grid-area: footer;
     border-radius: 0em 0em 1em 1em;
 }
