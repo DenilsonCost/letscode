@@ -1,23 +1,58 @@
 
 *{
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
 }
 
-.header{
-    background-color: #00ff447a;
-    height: 20vh;
-    width: 150vh;
+.container {
+    display: grid;
+    height: 95vh;
+    grid-template-columns: 0.8fr 0.2fr 2fr 2fr;
+    grid-template-rows: 0.5fr 2fr 1.2fr 0.3fr;
+    grid-template-areas: "header header header header"
+                        "menu menu main main"
+                        "menu menu post1 post2"
+                        "footer footer footer footer";
+    grid-gap: 0.2em;
+    font-size: 20px;
+    font-family: Tahoma;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
 }
-.menu{
-    background-color: #8383837a;
-    height: 20vw;
-    width: 10vw;
-    margin-top: 10px;
+
+#header {
+    background-color: #8c7c62;
+    grid-area: header;
+    border-radius: 1em 1em 0em 0em;
 }
-.post{
-    background-color: #a071f744;
+
+#menu {
+    background-color: #71443f;
+    grid-area: menu;
+    border-radius: 0em 1em 1em 0em;
 }
-.footer{
-    background-color: #ff505011;
+
+#main {
+    background-color: #b5cea4;
+    grid-area: main;
+    border-radius: 1em 0em 0em 1em;
+}
+
+#post1 {
+    background-color: #d3d5b0;
+    grid-area: post1;
+    border-radius: 1em;
+}
+
+#post2 {
+    background-color: #d3d5b0;
+    grid-area: post2;
+    border-radius: 1em 0em 0em 1em;
+}
+
+#footer {
+    background-color: #b5cea4;
+    grid-area: footer;
+    border-radius: 0em 0em 1em 1em;
 }
